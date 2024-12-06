@@ -5,7 +5,6 @@ import { useParams, Link } from "react-router-dom";
 
 const api_key = import.meta.env.VITE_APP_KAKAO_API_KEY
 const tempid = import.meta.env.VITE_APP_TEMPLAET_ID
-console.log(tempid)
   
 const ResultPage = () => {
   const { mbti } = useParams();
