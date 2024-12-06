@@ -8,6 +8,10 @@
 
 12가지 질문을 통해서 나의 MBTI와 어울리는 고양이를 찾을 수 있는 재미있는 심리 테스트
 
+[https://mbti-test-virid.vercel.app](https://mbti-test-virid.vercel.app/)
+
+
+
 ### ⚙️ 사용 기술
 
 - `html` : 전반적인 웹 페이지의 구성
@@ -58,7 +62,7 @@ const clickShareHandler = () => {
     Kakao.Share.sendCustom({
       templateId: TEMPLATE_ID,
       templateArgs: {
-        THU: "https://www.mbti-test-rose.vercel.app" + resultMBTIData.image,
+        THU: "https://mbti-test-virid.vercel.app" + resultMBTIData.image,
         MATCH_CAT: resultMBTIData.match_cat,
       },
     });
