@@ -23,7 +23,7 @@ const ResultPage = () => {
     Kakao.Share.sendCustom({
       templateId: tempid,
       templateArgs: {
-        THU: "https://www.mbti-test-rose.vercel.app" + resultMBTIData.image,
+        THU: "https://mbti-test-virid.vercel.app" + resultMBTIData.image,
         MATCH_CAT: resultMBTIData.match_cat,
       },
     });
